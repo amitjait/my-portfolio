@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family:"system-ui",'Ubuntu','sans-serif';
+    /* background-color: antiquewhite; */
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 100px;
+    background: transparent;
+    /* font-size: 16px; */
+}
+
+.in-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    /* border: 1px solid black; */
+}
+
+.menu{
+    width: 30rem;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    width: 20rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+li{
+    cursor: pointer;
+}
+.contact-me{
+    border-radius: 30px;
+    background-color: pink;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    z-index: 1000;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    /* background-color: aliceblue; */
+}
+
+
+.in-banner{
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+
+.content{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name-sec{
+    width: 70%;
+    font-size: 95px;
+}
+
+.intro{
+    width: 65%;
+    /* border: 1px solid black; */
+}
+
+#more{
+    width: 20%;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    border: none;
+}
+
+.tech{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.tech .java, .js, .react, .html, .css, .spring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    height: 60px;
+}
+.tech .java{
+    width: 8rem;
+    padding-top: 0rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: 1px solid skyblue;
+    color: rgb(133, 133, 223);
+}
+
+.tech .js{
+    width:16rem;
+    padding-top: 0rem;
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+}
+
+.tech .react{
+    width:8rem;
+    padding-top: 0rem;
+    background-color: rgb(61, 164, 205);
+    font-size: 40px;
+}
+
+.tech .html{
+    width:8rem;
+    padding-top: 0rem;
+    background-color: rgb(255, 98, 0);
+    font-size: 40px;
+}
+
+.tech .css{
+    width:7rem;
+    padding-top: 0rem;
+    background-color: rgb(120, 71, 255);
+    color: black;
+    font-size: 40px;
+}
+
+.tech .spring{
+    width:16rem;
+    padding-top: 0rem;
+    background-color:#6DB33F;
+    font-size: 40px;
+}
+
+.rotate{
+    position: relative;
+    width: 150%;
+    background-color:rgb(255, 98, 0)  ;
+    height: 450px;
+    transform: rotate(135deg);
+    z-index: -1;
+    margin-top: -30px;
+    border-radius: 500px;
+    overflow: hidden;
+}
+
+
+
+.image{
+    width: 50%;
+}
+
+.rotate img{
+    position: absolute;
+    transform: rotate(225deg);
+    right: 0;
+    top: -25px;
+    height: 130%;
+}
