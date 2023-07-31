@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/logo.jpg';
+import logo from '../images/logo.jpg'
 
 
 const Navbar = ()=>{
@@ -19,6 +19,25 @@ const Navbar = ()=>{
                 </div>
                 <div className="contact-me">
                     Contact me
+                </div>
+            </div>
+            <div className="s-nav">
+                <div className="nav-box">
+                    <div className="logo">
+                        <img src={logo} alt="AK" />
+                    </div>
+                    <div className="boxes">
+                        <div className="box"></div>
+                        <div className="box"></div>
+                        <div className="box"></div>
+                    </div>
+                </div>
+                <div className="menu">
+                    <ul>
+                        <li>About me</li>
+                        <li>Portfolio</li>
+                        <li>Coorporation</li>
+                    </ul>
                 </div>
             </div>
         </div>

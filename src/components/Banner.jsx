@@ -27,9 +27,10 @@ const Banner = ()=>{
                         <div className="css">CSS</div>
                         <div className="spring">Spring Boot</div>
                     </div>
+                    
                 </div>
                 <div className="image">
-                    <div className="rotate">
+                    <div className="in-image">
                         <img src={photo} alt="my phot" />
                     </div>
                 </div>
