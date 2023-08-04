@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../images/img.png"
+import photo from "../images/img1.png"
 
 const Banner = ()=>{
     return (
@@ -7,7 +7,7 @@ const Banner = ()=>{
             <div className="in-banner">
                 <div className="content">
                     <div className="name-sec">
-                        My name is Amit
+                        My name is <span style={{color:"rgb(255, 110, 30)", fontWeight:"bold"}}>Amit</span>
                     </div>
                     <div className="intro">
                         I am a web developer with more than 1 year of experience
@@ -17,17 +17,6 @@ const Banner = ()=>{
                             More
                         </button>
                     </div>
-
-                    <h2>Technologies</h2>
-                    <div className="tech">
-                        <div className="java">java</div>
-                        <div className="js">JavaScript</div>
-                        <div className="react">React</div>
-                        <div className="html">HTML</div>
-                        <div className="css">CSS</div>
-                        <div className="spring">Spring Boot</div>
-                    </div>
-                    
                 </div>
                 <div className="image">
                     <div className="in-image">

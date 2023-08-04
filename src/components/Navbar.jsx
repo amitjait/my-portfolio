@@ -2,7 +2,11 @@ import React from "react";
 import logo from '../images/logo.jpg'
 
 
-const Navbar = ()=>{
+const Navbar = ({click, setClick})=>{
+
+    function handleMenuClick(){
+        setClick(!click);
+    }
 
     return (
         <div className="nav">
@@ -14,9 +18,9 @@ const Navbar = ()=>{
                         <li>Coorporation</li>
                     </ul>
                 </div>
-                <div className="logo">
+                {/* <div className="logo">
                     <img src={logo} alt="AK" style={{width:"4rem", borderRadius:"50%"}}/>
-                </div>
+                </div> */}
                 <div className="contact-me">
                     Contact me
                 </div>
@@ -26,18 +30,11 @@ const Navbar = ()=>{
                     <div className="logo">
                         <img src={logo} alt="AK" />
                     </div>
-                    <div className="boxes">
+                    <div className="boxes" onClick={handleMenuClick}>
                         <div className="box"></div>
                         <div className="box"></div>
                         <div className="box"></div>
                     </div>
-                </div>
-                <div className="menu">
-                    <ul>
-                        <li>About me</li>
-                        <li>Portfolio</li>
-                        <li>Coorporation</li>
-                    </ul>
                 </div>
             </div>
         </div>
